@@ -26,9 +26,6 @@
         background-size: 400%;
         border-radius: 30px;
         z-index: 1;
-    }
-    
-    a:hover {
         animation: animate 7s linear infinite;
     }
     
@@ -53,13 +50,10 @@
         background-size: 400%;
         border-radius: 40px;
         opacity: 0;
-        transition: opacity .5s;
-    }
-    
-    a:hover::before {
         filter: blur(20px);
         opacity: 1;
         animation: animate 7s linear infinite;
+        transition: opacity .5s;
     }
     /*======== HEART ========*/
     
